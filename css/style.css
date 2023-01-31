@@ -12,6 +12,13 @@ body {
     background-color: #F6F8F9;
 }
 
+/* COMMON */
+
+li {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 /* HEADER */
 
 div.header {
@@ -48,7 +55,7 @@ div.main-container {
     padding-left: 60px;
  }
 
-/* NAV MAIN */
+/* NAV */
 
 nav button {
     border-style: none;
@@ -63,3 +70,73 @@ button.blue-button {
     background-color : #47ADF1;
     color: white;
  }
+
+/* SELECTION MENU */
+
+div.selection-menu {
+    background-color: white;
+    margin-top: 3px;
+    padding: 0px 0 60px 60px;
+}
+
+div.selection-menu ul {
+    list-style-type: none;
+}
+
+li.title-menu {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 40px;
+}
+
+span.menu-arrow {
+    font-size: 0.9rem;
+    line-height: 1em;
+    margin-right: 8px;
+}
+
+li.selection {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+span.checkbox {
+    border: 1px solid rgb(3, 156, 3);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: rgb(3, 156, 3);
+    margin-right: 8px;
+}
+
+span.checkbox-label {
+    margin-left: 10px;
+    color: white;
+    padding: 4px 12px;
+    font-size: 0.7rem;
+    font-weight: 200;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+span.checkbox-label.blue{
+    background-color: #47ADF1;
+}
+span.checkbox-label.violet{
+    background-color: #9C72E4;
+}
+span.checkbox-label.green{
+    background-color: #64C0A9;
+}
+span.checkbox-label.orange{
+    background-color: #F29E33;
+}
+span.checkbox-label.fuxia{
+    background-color: #D863A1;
+}
+span.checkbox-label.yellow{
+    background-color: #B0C926;
+}
