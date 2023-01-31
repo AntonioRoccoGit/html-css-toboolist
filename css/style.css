@@ -30,3 +30,36 @@ div.header h2{
     line-height: 80px;
     vertical-align: middle;
 }
+
+/* MAIN */
+ 
+div.main-container {
+    width: 70%;
+    height: 600px;
+    border-radius: 15px ;
+    margin: 60px auto;
+ }
+
+ div.main-container nav {
+    height: 60px;
+    border-radius: 15px 15px 0 0  ;
+    background-color: white;
+    padding-top: 24px;
+    padding-left: 60px;
+ }
+
+/* NAV MAIN */
+
+nav button {
+    border-style: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: .5em;
+    color: lightgray;
+    background-color: white;
+ }
+
+button.blue-button {
+    background-color : #47ADF1;
+    color: white;
+ }
