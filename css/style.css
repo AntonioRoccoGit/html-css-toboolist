@@ -100,18 +100,19 @@ span.menu-arrow {
 li.selection {
     font-size: 1rem;
     font-weight: 600;
-    line-height: 1em;
+    line-height: 24px;
 }
 
 span.checkbox {
     border: 1px solid rgb(3, 156, 3);
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     text-align: center;
     display: inline-block;
     color: #7ECCBA;
     margin-right: 8px;
+    line-height: 24px;
 }
 
 span.checkbox-label {
