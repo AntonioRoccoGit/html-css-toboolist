@@ -26,6 +26,7 @@ div.header {
     height: 80px;
     background-color: white;
     padding-left: 2em;
+    line-height: 80px;
 }
 
 div.header img {
@@ -35,7 +36,6 @@ div.header img {
 div.header h2{
     display: inline-block;
     font-size: 3rem;
-    line-height: 80px;
     vertical-align: middle;
 }
 
@@ -43,7 +43,6 @@ div.header h2{
  
 div.main-container {
     width: 70%;
-    height: 600px;
     border-radius: 15px ;
     margin: 60px auto;
  }
@@ -56,7 +55,7 @@ div.main-container {
     padding-left: 60px;
  }
 
-/* NAV */
+/* nav */
 
 nav button {
     border-style: none;
@@ -65,19 +64,19 @@ nav button {
     padding: .5em;
     color: lightgray;
     background-color: white;
- }
+}
 
 button.blue-button {
     background-color : #47ADF1;
     color: white;
  }
 
-/* SELECTION MENU */
+/* selection menu */
 
 div.selection-menu {
     background-color: white;
     margin-top: 3px;
-    padding: 0px 0 60px 60px;
+    padding: 0px 0 10px 60px;
     border-radius: 0 0 16px 16px;
 }
 
@@ -115,6 +114,11 @@ span.checkbox {
     line-height: 24px;
 }
 
+span.checkbox.disabled{
+    color: red;
+    border-color: red;
+}
+
 span.checkbox-label {
     text-align: center;
     margin-left: 10px;
@@ -126,10 +130,7 @@ span.checkbox-label {
     display: inline-block;
 }
 
-span.checkbox.disabled{
-    color: red;
-    border-color: red;
-}
+/* selection menu label */
 
 span.checkbox-label.blue{
     background-color: #47ADF1;
